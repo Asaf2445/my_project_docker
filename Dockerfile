@@ -68,7 +68,7 @@ WORKDIR /root/ros2_ws
 RUN     source /opt/ros/${ROS_DISTRO}/setup.bash && \
         colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
         
-
+ENTRYPOINT ["/bin/bash", "-c", "source /opt/ros/${ROS_DISTRO}/setup.bash"]
 
 
 

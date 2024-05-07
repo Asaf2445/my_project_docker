@@ -10,10 +10,13 @@
 		"dockerfile": "../Dockerfile"
 	},
 
-	"runArgs": ["--privileged", "--net=host"],
-	"remoteEnv": {
-        "DISPLAY": "${localEnv:DISPLAY}"
-	}
+	"runArgs": [
+       
+        "--privileged"
+        
+    ]
+    
+
 	
 
 
