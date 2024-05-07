@@ -1,0 +1,21 @@
+[0.297s] Invoking command in '/workspaces/try1/src/my_project_pkg': PYTHONPATH=/workspaces/try1/build/my_project_pkg/prefix_override:/workspaces/try1/install/my_project_pkg/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_project_pkg build --build-base /workspaces/try1/build/my_project_pkg/build install --record /workspaces/try1/build/my_project_pkg/install.log --single-version-externally-managed install_data
+[0.407s] running egg_info
+[0.408s] writing ../../build/my_project_pkg/my_project_pkg.egg-info/PKG-INFO
+[0.408s] writing dependency_links to ../../build/my_project_pkg/my_project_pkg.egg-info/dependency_links.txt
+[0.408s] writing entry points to ../../build/my_project_pkg/my_project_pkg.egg-info/entry_points.txt
+[0.408s] writing requirements to ../../build/my_project_pkg/my_project_pkg.egg-info/requires.txt
+[0.408s] writing top-level names to ../../build/my_project_pkg/my_project_pkg.egg-info/top_level.txt
+[0.410s] reading manifest file '../../build/my_project_pkg/my_project_pkg.egg-info/SOURCES.txt'
+[0.416s] writing manifest file '../../build/my_project_pkg/my_project_pkg.egg-info/SOURCES.txt'
+[0.416s] running build
+[0.416s] running build_py
+[0.416s] running install
+[0.417s] running install_lib
+[0.418s] running install_data
+[0.418s] running install_egg_info
+[0.419s] removing '/workspaces/try1/install/my_project_pkg/lib/python3.10/site-packages/my_project_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.419s] Copying ../../build/my_project_pkg/my_project_pkg.egg-info to /workspaces/try1/install/my_project_pkg/lib/python3.10/site-packages/my_project_pkg-0.0.0-py3.10.egg-info
+[0.420s] running install_scripts
+[0.433s] Installing optical_flow_run script to /workspaces/try1/install/my_project_pkg/lib/my_project_pkg
+[0.434s] writing list of installed files to '/workspaces/try1/build/my_project_pkg/install.log'
+[0.449s] Invoked command in '/workspaces/try1/src/my_project_pkg' returned '0': PYTHONPATH=/workspaces/try1/build/my_project_pkg/prefix_override:/workspaces/try1/install/my_project_pkg/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_project_pkg build --build-base /workspaces/try1/build/my_project_pkg/build install --record /workspaces/try1/build/my_project_pkg/install.log --single-version-externally-managed install_data
